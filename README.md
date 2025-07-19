@@ -65,7 +65,7 @@ g++ src/*.cpp -o finance-manager
 ▶️ Run:
 ```bash
 ./finance-manager
-
+```
 Your data will be saved to data/transactions.csv automatically.
 🧠 Concepts Used
 
