@@ -20,17 +20,17 @@ Built in **pure C++** with a focus on clean architecture, file I/O, and OOP prin
 
 Personal Finance Manager
 
-Add a transaction<br>
-View all transactions<br>
-View monthly report<br>
-Exit<br>
-Enter choice: 1<br>
+Add a transaction
+View all transactions
+View monthly report
+Exit
+Enter choice: 1
 
-Enter date (YYYY-MM-DD): 2025-07-19<br>
-Enter amount: 200<br>
-Enter type (0 = INCOME, 1 = EXPENSE): 1<br>
-Enter category: Food<br>
-Enter note (optional): Lunch<br>
+Enter date (YYYY-MM-DD): 2025-07-19
+Enter amount: 200
+Enter type (0 = INCOME, 1 = EXPENSE): 1
+Enter category: Food
+Enter note (optional): Lunch
 
 ✅ Transaction added successfully!
 ```
@@ -40,13 +40,13 @@ Enter note (optional): Lunch<br>
 
 ```bash
 finance-manager/<br>
-├── src/<br>
-│ ├── main.cpp<br>
-│ ├── Transaction.h / Transaction.cpp<br>
-│ ├── FinanceManager.h / FinanceManager.cpp<br>
-├── data/<br>
-│ └── transactions.csv<br>
-├── README.md<br>
+├── src/
+│ ├── main.cpp
+│ ├── Transaction.h / Transaction.cpp
+│ ├── FinanceManager.h / FinanceManager.cpp
+├── data/
+│ └── transactions.csv
+├── README.md
 ```
 ---
 
@@ -65,7 +65,7 @@ g++ src/*.cpp -o finance-manager
 ▶️ Run:
 ```bash
 ./finance-manager
-```
+
 Your data will be saved to data/transactions.csv automatically.
 🧠 Concepts Used
 
@@ -85,3 +85,4 @@ CLI menu and user input
 
 Vaibhav Jha
 Built with ❤️ to showcase practical C++ skills.
+```
