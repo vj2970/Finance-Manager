@@ -1,23 +1,24 @@
-```bash
 # 💰 Personal Finance Manager (C++ CLI)
-
+```bash
 A simple command-line application to manage personal income and expenses.  
 Built in **pure C++** with a focus on clean architecture, file I/O, and OOP principles.
+```
 
 ---
 
 ## 📦 Features
-
+```bash
 - ✅ Add income and expense transactions
 - 📂 Save and load data to/from CSV file
 - 🔎 View all transactions in a tabular format
 - 📊 Generate monthly financial reports (income, expense, balance)
 - 🧠 Uses C++ OOP, STL, and enum-based transaction types
+```
 
 ---
 
 ## 📸 Demo (CLI Example)
-
+```bash
 Personal Finance Manager
 
 Add a transaction
@@ -66,23 +67,34 @@ g++ src/*.cpp -o finance-manager
 ```bash
 ./finance-manager
 ```
-Your data will be saved to data/transactions.csv automatically.
-🧠 Concepts Used
 
+Your data will be saved to data/transactions.csv automatically.
+
+## 🧠 Concepts Used
+```bash
 Object-Oriented Programming (OOP)
 File I/O with CSV
 Enums and conditional logic
 STL (vector, string, fstream, etc.)
 CLI menu and user input
-📈 Possible Future Improvements
+```
 
+---
+
+## 📈 Possible Future Improvements
+```bash
 🔐 Password-protected user accounts
 📊 Graphical summary (if ported to GUI using Qt)
 📁 Export reports to PDF or HTML
 🧪 Unit tests using Google Test
 🌐 Cloud sync using REST APIs
+```
+
+---
+
 👨‍💻 Author
 
+```bash
 Vaibhav Jha
 Built with ❤️ to showcase practical C++ skills.
 ```
