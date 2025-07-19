@@ -33,30 +33,30 @@ Enter note (optional): Lunch
 
 ✅ Transaction added successfully!
 
-
 ---
 
 ## 🧱 Project Structure
 
-finance-manager/
-├── src/
-│ ├── main.cpp
-│ ├── Transaction.h / Transaction.cpp
-│ ├── FinanceManager.h / FinanceManager.cpp
-├── data/
-│ └── transactions.csv
-├── README.md
-
+finance-manager/<br>
+├── src/<br>
+│ ├── main.cpp<br>
+│ ├── Transaction.h / Transaction.cpp<br>
+│ ├── FinanceManager.h / FinanceManager.cpp<br>
+├── data/<br>
+│ └── transactions.csv<br>
+├── README.md<br>
 
 ---
 
 ## 🛠️ How to Build and Run
 
 ### 📌 Prerequisites:
+
 - C++11 or newer
 - A C++ compiler like `g++`
 
 ### 🔧 Build:
+
 ```bash
 g++ src/*.cpp -o finance-manager
 ▶️ Run:
@@ -80,3 +80,4 @@ CLI menu and user input
 
 Vaibhav Jha
 Built with ❤️ to showcase practical C++ skills.
+```
