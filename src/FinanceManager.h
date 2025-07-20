@@ -1,22 +1,23 @@
 #ifndef FINANCEMANAGER_H
 #define FINANCEMANAGER_H
 
-#include "Transaction.h"
 #include <vector>
 #include <string>
+#include "Transaction.h"
 
 class FinanceManager
 {
 private:
-    vector<Transaction> transactions;
-    string dataFilePath = "data/transactions.csv";
+    std::vector<Transaction> transactions;
+    std::string dataFile = "data/transactions.csv";
 
 public:
-    void loadTransaction();
-    void saveTransaction() const;
-    void addTransaction(const Transaction txn);
-    void showAllTransaction() const;
-    void showMonthlyReport(const string &yearMonth) const;
+    void loadTransactions();
+    void saveTransactions() const;
+
+    void addTransaction(const Transaction &txn);
+    void showAllTransactions() const;
+    void showMonthlyReport(const std::string &month) const;
 };
 
 #endif
